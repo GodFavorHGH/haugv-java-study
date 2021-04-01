@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="app-user-service" />
+        <module name="app-credit-service" />
+        <module name="app-red-packet-service" />
+        <module name="app-stock-service" />
+        <module name="app-payment-service" />
+        <module name="app-account-service" />
+        <module name="app-backstage-mgmt-service" />
+        <module name="app-order-service" />
+        <module name="app-commodity-service" />
+        <module name="app-bill-service" />
+        <module name="app-logistics-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app-common-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
